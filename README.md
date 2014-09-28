@@ -1,8 +1,8 @@
-h4cc/phpqatools [![Build Status](https://travis-ci.org/h4cc/phpqatools.png?branch=master)](https://travis-ci.org/h4cc/phpqatools)
+MassiAtZend/phpqatools
 ==========
 
 This is a composer meta package for installing PHP Quality Assurance Tools with only one dependency.
-Only stable packages are used, to keep the configuration easy and secure.
+The package is an adepted fork of the original 'h4cc/phpqatools' version.
 
 Included in this package are:
 - PHPUnit
@@ -15,6 +15,7 @@ Included in this package are:
 - PHP_CodeSniffer
 - Fabien Potencier/PHP Coding Standards Fixer
 - Sensiolabs/Security-Checker
+- Covex NN PHP_CodeBrowser
 
 
 # Usage
@@ -28,12 +29,12 @@ The installed tools are available in vendor/bin/ and can be started like this:
 
 To use this package, add it as as "dev" dependency with this command:
 
-    php composer.phar require h4cc/phpqatools --dev
+    php composer.phar require MassiAtZend/phpqatools --dev
 
 Or modify your composer.json as followed:
 
     require-dev: {
-      "h4cc/phpqatools": "*"
+      "MassiAtDev/phpqatools": "*"
     }
 
 More info about development dependencies: http://getcomposer.org/doc/04-schema.md#require-dev
