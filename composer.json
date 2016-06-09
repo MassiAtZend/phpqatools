@@ -13,7 +13,9 @@
     "sensiolabs/security-checker": "~3.0",
     "behat/behat": "~3.0",
     "mayflower/php-codebrowser": "~1.1",
-    "theseer/phpdox": ">=0.8"
+    "theseer/phpdox": ">=0.8",
+    "halleck45/phpmetrics": "~1.10",
+    "qa-tools/qa-tools": "~1.1"
   },
   "authors" : [ {
     "name" : "Massimiliano Cavicchioli",
