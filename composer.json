@@ -14,7 +14,7 @@
     "sensiolabs/security-checker": "~3.0",
     "behat/behat": "~3.2",
     "mayflower/php-codebrowser": "~1.1",
-    "theseer/phpdox": ">=0.9",
+    "theseer/phpdox": "~0.8",
     "phpmetrics/phpmetrics": "~2.0",
     "qa-tools/qa-tools": "~1.2"
   },
